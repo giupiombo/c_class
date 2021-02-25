@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/giupiombo/Documents/C/Schedule_Project/main.c
+stdio.h
+-
+schedule.h
+/Users/giupiombo/Documents/C/Schedule_Project/schedule.h
+
+/Users/giupiombo/Documents/C/Schedule_Project/schedule.h
+
