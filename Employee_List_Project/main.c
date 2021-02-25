@@ -3,16 +3,8 @@
  * Specification: List of all employees at a company
 */
 
-#include<stdio.h>
-
-// structure for employee
-struct employee {
-  int id;
-  char name[50];
-  int salary;
-  int exp;
-  char dept[100];
-};
+#include <stdio.h>
+#include "employee.h"
 
 int main() {
 
@@ -54,7 +46,7 @@ int main() {
   // enter id of the employee you want to make changes
   int changes;
 
-  printf("\n\nEnter the id of the employee you want to change information: ");
+  printf("\nEnter the id of the employee you want to change information: ");
   scanf("%d", &changes);
 
   // find the position of this employee
@@ -67,7 +59,7 @@ int main() {
   }
 
   // input new information
-  printf("Enter the new information for employee with ID %d\n", changes);
+  printf("\nEnter the new information for employee with ID %d\n", changes);
   printf("Salary: ");
   scanf("%d",&emp[position].salary);
   printf("Experience: ");
@@ -76,7 +68,7 @@ int main() {
   scanf("%s",emp[position].dept);
 
   // print details of Employee that had changes
-  printf("\n\n********DETAILS OF Employee %d********\n", position+1);
+  printf("\n********DETAILS OF Employee %d********\n", position+1);
   printf("ID = %d\n",emp[position].id);
   printf("Name = %s\n",emp[position].name);
   printf("Salary = %d\n",emp[position].salary);
