@@ -1,0 +1,3 @@
+/Users/giupiombo/Documents/GitHub/c_class/Employee_List_Project/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/giupiombo/Documents/GitHub/c_class/Employee_List_Project/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/giupiombo/Documents/GitHub/c_class/Employee_List_Project/cmake-build-debug/CMakeFiles/Employee_List_Project.dir
